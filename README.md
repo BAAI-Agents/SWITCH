@@ -45,10 +45,6 @@ If you use SWITCH in your research, please cite:
 
 We welcome contributions and feedback! Please feel free to submit issues or pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 For questions or inquiries, please reach out to the BAAI-Agents team.
