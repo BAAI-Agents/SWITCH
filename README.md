@@ -28,15 +28,17 @@ Case studies of representative errors in video generation. Examples using Veo3. 
 
 ## Getting Started
 
-Will update soon!
+We will provide a leaderboard for the SWITCH benchmark on HuggingFace shortly, including instructions on how to run on the full-set evaluation.
 
 ## Citation
 
-If you use SWITCH in your research, please cite:
+If you utilize SWITCH scenarios or data in your research, please cite:
 
 ```bibtex
-@benchmark{switch2025,
-  title={SWITCH: Benchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios},
+@article{switch2025,
+  title={{SWITCH}: {B}enchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios},
+  author={Jieru Lin, Zhiwei Yu, Börje F. Karlsson},
+  journal={arXiv preprint arXiv:2511.17649},
   year={2025}
 }
 ```
