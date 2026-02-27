@@ -2,11 +2,24 @@
 
 <div align="center">
 
+[[arXiv]](https://arxiv.org/abs/2511.17649)
+[[leaderboard]](https://huggingface.co/spaces/BAAI-Agents/SWITCH-Basic-Leaderboard)
+[[dataset]](https://huggingface.co/datasets/BAAI-Agents/SWITCH-Basic-v1-open)
+[[PDF]](https://arxiv.org/pdf/2511.17649)
+
+</div>
+
+Autonomous intelligence requires not only perception and reasoning, but critically, effective interaction with the existing world and its infrastructure. Everyday environments are rich in tangible control interfaces (TCIs), e.g., light switches, appliance panels, and embedded GUIs, that demand commonsense and physics reasoning, but also causal prediction and outcome verification in time and space (e.g., delayed heating, remote lights). Moreover, failures here have potential safety implications, yet current benchmarks rarely test grounding, partial observability (video), or post-hoc verification in situated settings. We introduce SWITCH (Semantic World Interface Tasks for Control and Handling), an embodied, task-driven benchmark created through iterative releases to probe these gaps.
+
+<div align="center">
+
 ![Overview](assets/Overview.png)
 
 </div>
 
-An overview of the SWITCH benchmark, using the case *Turn off all the lights* as a running example. SWITCH covers the collection and annotation of real-world TCI interaction data (*Collected Data*), which we systematically structure into five distinct tasks. These tasks are designed to evaluate models across three crucial capability dimensions: Perception/Spatial Reasoning, Causal Reasoning/Planning, and Verification. Furthermore, we leverage the benchmark to evaluate advanced generative models, like Veo3. By comparing generated videos against ground truth, we illustrate how current models still exhibit significant room for improvement in logical consistency and fine-grained interaction for real-word use, thus underscoring the importance of SWITCH's target scenarios.
+The figure above provides an overview of the SWITCH benchmark, using the case *Turn off all the lights* as a running example. SWITCH covers the collection and annotation of real-world TCI interaction data (*Collected Data*), which we systematically structure into five distinct tasks. These tasks are designed to evaluate models across three crucial capability dimensions: Perception/Spatial Reasoning, Causal Reasoning/Planning, and Verification. 
+
+Furthermore, we leverage the benchmark to evaluate advanced generative models, like Veo3. By comparing generated videos against ground truth, we illustrate how current models still exhibit significant room for improvement in logical consistency and fine-grained interaction for real-word use, thus underscoring the importance of SWITCH's target scenarios.
 
 ## Key Tasks
 
@@ -28,7 +41,11 @@ Case studies of representative errors in video generation. Examples using Veo3. 
 
 ## Getting Started
 
-We will provide a leaderboard for the SWITCH benchmark on HuggingFace shortly, including instructions on how to run on the full-set evaluation.
+The [SWITCH Benchmark Leaderboard](https://huggingface.co/spaces/BAAI-Agents/SWITCH-Basic-Leaderboard) is now hosted on HuggingFace and it includes instructions on how to run on the full-set evaluation.
+
+## Contributing
+
+We welcome contributions and feedback! Please feel free to submit issues or pull requests.
 
 ## Citation
 
@@ -43,10 +60,6 @@ If you utilize SWITCH scenarios or data in your research, please cite:
 }
 ```
 
-## Contributing
-
-We welcome contributions and feedback! Please feel free to submit issues or pull requests.
-
 ## Contact
 
-For questions or inquiries, please reach out to the BAAI-Agents team.
+For questions or inquiries, please reach out to the BAAI-Agents team at ```baai-agents at baai.ac.cn```.
