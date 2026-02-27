@@ -17,7 +17,7 @@ Autonomous intelligence requires not only perception and reasoning, but critical
 
 </div>
 
-The firure provides an overview of the SWITCH benchmark, using the case *Turn off all the lights* as a running example. SWITCH covers the collection and annotation of real-world TCI interaction data (*Collected Data*), which we systematically structure into five distinct tasks. These tasks are designed to evaluate models across three crucial capability dimensions: Perception/Spatial Reasoning, Causal Reasoning/Planning, and Verification. 
+The figure above provides an overview of the SWITCH benchmark, using the case *Turn off all the lights* as a running example. SWITCH covers the collection and annotation of real-world TCI interaction data (*Collected Data*), which we systematically structure into five distinct tasks. These tasks are designed to evaluate models across three crucial capability dimensions: Perception/Spatial Reasoning, Causal Reasoning/Planning, and Verification. 
 
 Furthermore, we leverage the benchmark to evaluate advanced generative models, like Veo3. By comparing generated videos against ground truth, we illustrate how current models still exhibit significant room for improvement in logical consistency and fine-grained interaction for real-word use, thus underscoring the importance of SWITCH's target scenarios.
 
