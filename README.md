@@ -2,10 +2,7 @@
 
 <div align="center">
 
-[[arXiv]](https://arxiv.org/abs/2511.17649)
-[[leaderboard]](https://huggingface.co/spaces/BAAI-Agents/SWITCH-Basic-Leaderboard)
-[[dataset]](https://huggingface.co/datasets/BAAI-Agents/SWITCH-Basic-v1-open)
-[[PDF]](https://arxiv.org/pdf/2511.17649)
+
 
 </div>
 
@@ -39,27 +36,7 @@ Furthermore, we leverage the benchmark to evaluate advanced generative models, l
 ![Details](assets/CaseStudy.png)
 Case studies of representative errors in video generation. Examples using Veo3. Cropped image frames to focus on issues.
 
-## Getting Started
-
-The [SWITCH Benchmark Leaderboard](https://huggingface.co/spaces/BAAI-Agents/SWITCH-Basic-Leaderboard) is now hosted on HuggingFace and it includes instructions on how to run on the full-set evaluation.
-
 ## Contributing
 
 We welcome contributions and feedback! Please feel free to submit issues or pull requests.
 
-## Citation
-
-If you utilize SWITCH scenarios or data in your research, please cite:
-
-```bibtex
-@article{switch2025,
-  title={{SWITCH}: {B}enchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios},
-  author={Jieru Lin, Zhiwei Yu, Börje F. Karlsson},
-  journal={arXiv preprint arXiv:2511.17649},
-  year={2025}
-}
-```
-
-## Contact
-
-For questions or inquiries, please reach out to the BAAI-Agents team at ```baai-agents at baai.ac.cn```.
