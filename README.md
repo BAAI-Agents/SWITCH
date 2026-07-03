@@ -4,7 +4,7 @@
 
 [[arXiv]](https://arxiv.org/abs/2511.17649)
 [[leaderboard]](https://huggingface.co/spaces/BAAI-Agents/SWITCH-Basic-Leaderboard)
-[[dataset]](https://huggingface.co/datasets/BAAI-Agents/SWITCH-Basic-v1-open)
+[[dataset]](https://huggingface.co/datasets/BAAI-Agents/SWITCH)
 [[PDF]](https://arxiv.org/pdf/2511.17649)
 
 </div>
